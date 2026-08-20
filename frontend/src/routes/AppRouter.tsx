@@ -40,7 +40,7 @@ import { ActivitiesPage } from '../pages/activities/ActivitiesPage';
 function ProtectedRoot() {
   const { user, ready } = useAuth();
   const location = useLocation();
-  if (!ready) return <div className="boot-screen"><img src="/branding/logo-sgb-icon.png" alt="SGB" /><LoadingState text="Recuperando sesión…" /></div>;
+  if (!ready) return <div className="boot-screen"><img src="/branding/logo-sigvb-icon.png" alt="SIGVB" /><LoadingState text="Recuperando sesión…" /></div>;
   if (!user) return <Navigate to="/login" replace state={{ from: location.pathname + location.search }} />;
   return <><VersionSync /><Outlet /></>;
 }

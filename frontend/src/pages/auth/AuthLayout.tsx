@@ -6,7 +6,7 @@ export function AuthLayout() {
     <main className="auth-layout">
       <section className="auth-brand-panel">
         <div className="auth-brand">
-          <span className="auth-logo-surface"><img src="/branding/logo-sgb-full.png" alt="Sistema de Gestión Bovina" /></span>
+          <span className="auth-logo-surface"><img src="/branding/logo-sigvb-full.png" alt="SIGVB · Sistema de Gestión Bovina" /></span>
         </div>
         <div className="auth-copy">
           <span className="eyebrow">Sistema de Gestión Bovina</span>

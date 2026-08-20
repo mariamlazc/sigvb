@@ -60,8 +60,8 @@ export function AppShell() {
       {open ? <button className="mobile-overlay" aria-label="Cerrar menú" onClick={closeMenu} /> : null}
       <aside className={`sidebar ${open ? 'sidebar-open' : ''}`}>
         <div className="sidebar-brand">
-          <img src="/branding/logo-sgb-icon.png" alt="SGB" />
-          <div><strong>SGB</strong><span>Gestión Bovina</span></div>
+          <img src="/branding/logo-sigvb-icon.png" alt="SIGVB" />
+          <div><strong>SIGVB</strong><span>Gestión Bovina</span></div>
           <IconButton label="Cerrar menú" className="sidebar-close" onClick={closeMenu}><X size={20} /></IconButton>
         </div>
         <nav className="sidebar-nav">
@@ -83,7 +83,7 @@ export function AppShell() {
           <div className="topbar-actions"><IconButton label={theme === 'dark' ? 'Usar tema claro' : 'Usar tema oscuro'} onClick={toggleTheme}>{theme === 'dark' ? <Sun size={19} /> : <Moon size={19} />}</IconButton><IconButton label="Notificaciones"><Bell size={19} /></IconButton><NavLink to="/perfil" className="profile-link"><UserCircle size={21} /><span>Mi perfil</span></NavLink></div>
         </header>
         <main className="page-content"><Outlet /></main>
-        <footer className="app-footer"><Home size={14} /><span>SGB · Sistema de Gestión Bovina</span></footer>
+        <footer className="app-footer"><Home size={14} /><span>SIGVB · Sistema de Gestión Bovina</span></footer>
       </div>
     </div>
   );

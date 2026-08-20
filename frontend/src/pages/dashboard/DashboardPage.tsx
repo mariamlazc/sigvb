@@ -144,7 +144,7 @@ export function DashboardPage() {
   return <div>
     <div className="dashboard-home-header">
       <div><span className="eyebrow">Panel principal</span><h1>Hola, {user?.nombres ?? 'bienvenido'}</h1><p>Resumen operativo y financiero de la finca.</p></div>
-      <img src="/branding/logo-sgb-full.png" alt="Sistema de Gestión Bovina" />
+      <img src="/branding/logo-sigvb-full.png" alt="SIGVB · Sistema de Gestión Bovina" />
       <IconButton label="Personalizar panel" onClick={() => setSettingsOpen(true)}><Settings2 size={20} /></IconButton>
     </div>
 
